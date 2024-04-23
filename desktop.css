@@ -11,11 +11,7 @@
     margin: 0;
   }
   .navbar {
-    padding-left: 50px;
-    justify-content: space-between;
-  }
-  .nav-links {
-    float: right;
+    justify-content: center;
   }
   .navbar .nav-links a {
     color: #f1f1f1;
@@ -25,11 +21,13 @@
   .disabled-link {
     cursor: not-allowed;
   }
-  .hero-content {
-    width: 50%;
+  .shadow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .hero-header {
-    margin-top: 100px;
+  .hero-content {
+    padding: 0;
   }
   .hero-button:hover {
     background-color: white;

@@ -11,25 +11,31 @@ body {
   margin: 0 auto;
   width: 90%;
 }
+.navbar .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .navbar {
   color: #ffffff;
   background-color: #4e4e4e;
   height: 50px;
   font-size: 18px;
   display: flex;
-  align-items: center;
-  padding-left: 5%;
 }
 
 .hero {
   background-image: url(images/d869216e199c4faf8b78918e652e7719.jpeg);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   color: #ffffff;
 }
 .shadow {
   background-color: #00000026;
   height: 100%;
+  width: 100%;
 }
 .hero-content {
   padding: 100px 10px 50px 5px;
@@ -144,6 +150,7 @@ body {
   height: 147px;
   justify-content: center;
   align-items: center;
+  gap: 16px;
 }
 .footer-text {
   font-size: 18px;
@@ -152,8 +159,8 @@ body {
 .footer-icons {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  font-size: 50px;
+  gap: 30px;
+  font-size: 30px;
 }
 .desktop-only {
   display: none;
