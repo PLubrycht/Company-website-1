@@ -55,12 +55,14 @@ body {
   width: 164px;
   height: 41px;
   box-sizing: border-box;
+  padding-top: 7px;
   font-size: 18px;
   background-color: #00000026;
   border: 3px solid #ffffff;
   text-decoration: none;
   color: #ffffff;
   transition: 1s;
+  text-align: center;
 }
 .employees {
   background-color: #f1f1f1;

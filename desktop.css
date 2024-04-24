@@ -1,11 +1,4 @@
 @media (min-width: 1024px) {
-  .navbar-content,
-  .hero-content,
-  .employees-content,
-  .offer-content,
-  .footer {
-    padding-left: 50px;
-  }
   .content {
     width: 960px;
     margin: 0;
@@ -71,6 +64,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 720px;
+    justify-content: center;
   }
   .offer-square {
     width: 198px;
