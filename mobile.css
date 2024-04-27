@@ -23,7 +23,6 @@ body {
   font-size: 18px;
   display: flex;
 }
-
 .hero {
   background-image: url(images/d869216e199c4faf8b78918e652e7719.jpeg);
   background-position: center;
@@ -36,9 +35,10 @@ body {
   background-color: #00000026;
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 .hero-content {
-  padding: 100px 10px 50px 5px;
   box-sizing: content-box;
   display: flex;
   flex-direction: column;
@@ -46,9 +46,12 @@ body {
 }
 .hero-header {
   font-size: 36px;
+  line-height: 42.19px;
 }
 .motto {
-  font-size: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
   margin: 40px 0;
 }
 .hero-button {
@@ -91,9 +94,13 @@ body {
   flex-direction: column;
   align-items: center;
   margin-bottom: 45px;
+  font-size: 18px;
+  line-height: 21px;
 }
 .employee-name {
   margin: 25px 0 20px 0;
+  font-size: 18px;
+  line-height: 21px;
 }
 .offer {
   background-color: #405d78;
@@ -108,6 +115,11 @@ body {
   text-align: center;
   margin-top: 35px;
   margin-bottom: 45px;
+}
+@media (max-width: 400px) {
+  .offer-header {
+    font-size: 1.2rem;
+  }
 }
 .offer-cards {
   display: flex;
@@ -127,6 +139,11 @@ body {
   justify-content: center;
   transition: 1s;
 }
+@media (max-width: 340px) {
+  .offer-square {
+    width: 90%;
+  }
+}
 .offer-circle {
   width: 30px;
   height: 30px;
@@ -141,6 +158,7 @@ body {
 }
 .offer-description {
   font-size: 18px;
+  line-height: 21px;
 }
 .footer {
   background-color: #4e4e4e;
@@ -161,7 +179,7 @@ body {
 .footer-icons {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 15px;
   font-size: 30px;
 }
 .desktop-only {
