@@ -16,6 +16,7 @@
   }
   .disabled-link {
     cursor: not-allowed;
+    color: #f1f1f1;
   }
   .shadow {
     display: flex;

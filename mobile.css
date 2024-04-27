@@ -1,6 +1,16 @@
 * {
   margin: 0;
 }
+@media (max-width: 400px) {
+  .offer-header {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 340px) {
+  .offer-square {
+    width: 90%;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -116,11 +126,7 @@ body {
   margin-top: 35px;
   margin-bottom: 45px;
 }
-@media (max-width: 400px) {
-  .offer-header {
-    font-size: 1.2rem;
-  }
-}
+
 .offer-cards {
   display: flex;
   flex-direction: column;
@@ -139,11 +145,7 @@ body {
   justify-content: center;
   transition: 1s;
 }
-@media (max-width: 340px) {
-  .offer-square {
-    width: 90%;
-  }
-}
+
 .offer-circle {
   width: 30px;
   height: 30px;
